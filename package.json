@@ -71,3 +71,26 @@
     "node": ">=18.0.0"
   }
 }
+
+
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+credential.helper=/.codespaces/bin/gitcredential_github.sh
+user.name=Bikrant Jajware
+user.email=34072248+bikrantjajware@users.noreply.github.com
+gpg.program=/.codespaces/bin/gh-gpgsign
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.hookspath=.husky
+lfs.repositoryformatversion=0
+remote.o.url=https://github.com/bikrantjajware/github-readme-stats.git
+remote.o.fetch=+refs/heads/*:refs/remotes/o/*
+user.email=bikrantjajware@gmail.com
+user.name=Bikrant Jajware
+remote.origin.url=https://github.com/bikrantjajware/github-readme-stats.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*cd 
