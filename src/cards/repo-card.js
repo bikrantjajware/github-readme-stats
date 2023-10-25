@@ -73,6 +73,7 @@ const renderRepoCard = (repo, options = {}) => {
     border_radius,
     border_color,
     locale,
+    card_width,
   } = options;
 
   const lineHeight = 10;
@@ -137,7 +138,7 @@ const renderRepoCard = (repo, options = {}) => {
   const card = new Card({
     defaultTitle: header.length > 35 ? `${header.slice(0, 35)}...` : header,
     titlePrefixIcon: icons.contribs,
-    width: 400,
+    width: card_width || 400,
     height,
     border_radius,
     colors,
