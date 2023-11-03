@@ -219,7 +219,7 @@ class Card {
     }
     return `
     <g data-testid="card-image" transform="translate(0, 0)">
-    <image x="0" y="0" width="${this.width}" height="${this.imageHeight}"
+    <image decoding="sync" x="0" y="0" width="${this.width}" height="${this.imageHeight}"
       href="${this.imageUrl}">
     </image>
   </g>`;
