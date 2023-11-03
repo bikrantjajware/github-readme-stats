@@ -77,6 +77,8 @@ const renderRepoCard = (repo, options = {}) => {
     show_image = false,
   } = options;
 
+  console.log({ openGraphImageUrl });
+
   const lineHeight = 10;
   const header = show_owner ? nameWithOwner : name;
   const langName = (primaryLanguage && primaryLanguage.name) || "Unspecified";
